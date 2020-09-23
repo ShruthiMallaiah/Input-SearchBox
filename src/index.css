@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:linear-gradient(-135deg,#c580c0,#4158d0);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: magenta; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+ul {
+  list-style: none;
+  max-height: 500px;
+  overflow: auto;
+  width: 50%;
+  padding: 0;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+ul > li:focus {
+  outline: none;
+  background: rgba(232, 240, 248, 0.5);
+  transition: 0.4s;
+}
+
+li {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  margin: 5px;
+  background-color: white;
+}
